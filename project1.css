@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+section{
+        background-color: black;
+
+}
+.continer1{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    color: white;
+    display: inline-block;
+    padding: 15px;
+}
+.textit{
+    color: orange;
+}
+.text:hover{
+    cursor: pointer;
+}
+
+.list{
+   display: inline-block;
+}
+.ul{
+    list-style: none;
+     display: inline-flex;
+    justify-content: space-between;
+    gap: 30px;
+
+
+}
+.li{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.li:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+
+
+
+.continer2{
+    margin:  auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.amfd{
+    width: 50%;
+    display: inline-block;
+    padding: 50px 0px;
+}
+h1{
+    color: rgb(16, 15, 15);
+    margin: 3% 0%;
+
+}
+.h2{
+    color: rgb(23, 22, 22);
+    margin: 3% 0%;
+
+}
+.hr{
+    width: 15%;
+    border: 1px solid orange;
+    margin: 3% 0%;
+
+}
+.p1{
+    color: rgba(75, 74, 74, 0.764);
+    margin: 3% 0%;
+    }
+.button1{
+    padding: 2%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none rgb(254, 254, 254);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 3% 0%;
+}
+.button2:hover{
+    background-color: orange;
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.table{
+    color: rgb(29, 28, 28);
+    font-size: 20px;
+    list-style: none;
+    padding: 10px;
+    background-color: rgb(233, 228, 228);
+
+    
+}
+.spancolor{
+    color: orange;
+    cursor: pointer;
+}
+
+.input{
+    margin: 10px 0px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+.input:focus{
+    outline: none;
+}
+.button2{
+    padding: 15px 0px;
+    background-color: orange;
+    color: white;
+    border: none;
+    margin: 20px 0px;
+}
+
+
+.continer3{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+}
+.tabs{
+    margin-top: 2%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+}
+    .button3{
+        padding:30px;
+        background-color:orange;
+        color: white;
+        border: none;
+          
+
+}
+    
+    .button4{
+       padding:30px;
+       background-color: black;
+       color: white;
+       border: none;
+}
+    .button5{
+        padding:30px;
+        background-color: black;
+        color: white;
+        border: none;
+        margin: 1px 0px;
+    }
+    .content{
+        display: inline-block;
+
+    }
+    
+    .button6{
+        padding:15px;
+        background-color: orange;
+        color: white;
+        border: none;
+        margin-top: 4%;
+        cursor: pointer;
+
+    }
+    .p2{
+       margin: auto;
+    }
+
+
+    .continer4{
+        margin: 10px auto;
+        width: 80%;
+    }
+    .item3{
+        text-align: center;
+        width: 100%;
+
+
+    }
+    .newh2{
+        margin: 10% 0% 0% 0%;
+    }
+    .rh{
+        border: 1px solid orange;
+        margin: 1% 46%;
+        width: 7%;
+    }
+    .p3{
+        margin: 1% ;
+        color: rgba(75, 74, 74, 0.764);  
+   }
+   .cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 5%;
+   }
+   .card1 {
+    width: 30%;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+
+   }
+   .card2{
+    width: 30%;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+
+   }
+   .card3{
+    width: 30%;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+   }
+  .iconwidth{
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    color: orange;
+    border-radius: 50%;
+    background-color: white;
+    border-color: orange;
+  }
+  
+
+
+  .continer5{
+    margin: auto;
+    width: 80%;
+
+    
+  }
+
+
+  
+  .LISTES{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+  }
+ 
+  .LESTA1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    align-items: center;
+
+    
+
+  }
+  
+  .p4{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.853);
+    color: white;
+    text-align: center;
+    margin-bottom: 1px;
+  }
+  .p5{
+    font-size:xx-large;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.853);
+    color: white;
+    text-align: center;
+  }
+  .p6{
+    font-size:small;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.853);
+    color: rgba(255, 255, 255, 0.651);
+    text-align: center;
+  }
+ .form2{
+        width: 100%;
+      }
+      .input1{
+        width: 50%;
+        padding:  0px 30px;
+        border: none;
+        border-bottom: 1px solid rgb(10, 10, 10);
+        align-items: center;
+        
+      }
+      .LESTA2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+
+      }
+      .button7{
+                width: 100%;
+                background-color: orange;
+                color: white;
+
+
+
+      }
+      .LESTA3{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20%;
+        align-items: center;
+
+      }
